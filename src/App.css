@@ -1,0 +1,54 @@
+body {
+  margin-left: 3cm;
+  margin-right: 3cm;
+  color: white;
+  background-color: rgb(7, 180, 180)
+}
+
+h1{
+  text-align: center;
+  background-color: hwb(165 3% 4%);
+  color: darkslateblue;
+  border: 3px solid darkslategray;
+  padding: 35px;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AddHouseForm {
+  text-align: center;
+  padding: 5cm;
+}
+
+.house-container {
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-bottom: 1cm;
+  border: 3px dashed rgb(198, 214, 214);
+  background-color: rgb(94, 138, 138);
+}
+
+.button-delete {
+  background-color: rgb(250, 6, 169);
+  color: rgb(253, 255, 255);
+}
+
+.button-room {
+  background-color:hsl(303, 96%, 29%);
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: white;
+}
+
